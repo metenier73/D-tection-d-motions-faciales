@@ -1,6 +1,6 @@
 
 from flask import Flask, render_template, request
-from detect_emotion import predict_emotion
+from emotion_detector import predict_emotion
 import os
 
 app = Flask(__name__)
